@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*行内标签是根据内容进行设置部分属性，如果想要设置宽高，需要转为行内元素*/
+        span {
+            /*转为块级*/
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 100px auto;
+        }
+
+        /*块转行*/
+        div {
+            display: inline;
+            width: 100px;
+            height: 100px;
+            background-color: #4146a0;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+<span></span>
+
+<div></div>
+</body>
+</html>
