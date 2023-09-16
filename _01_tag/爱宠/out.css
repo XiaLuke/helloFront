@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0
+}
+.common{
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+}
+.parent{
+    width: 400px;
+    padding: 20px;
+    background-color: green;
+}
+h3{
+    font-weight: 600;
+    color:white;
+    height: 40px;
+    line-height: 40px;
+}
+.body{
+    background-color: white;
+    
+} 
+.body ul{
+    list-style: none;
+    margin: 0;
+    padding:10px;
+    
+}
+.body li {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed blue
+}
+.body li a{
+    width: 100%;
+    color: blue;
+    text-decoration: none;
+}
