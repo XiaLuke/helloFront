@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+
+        }
+        .div1{
+            background-color: #91dc47;
+        }
+        .div2{
+            background-color: #36b893;
+            position: absolute;
+            left:10px
+        }
+        .div3{
+            background-color: #731dec;
+        }
+        /*
+            不占用原始位置
+
+            在上层盒子没有定位属性时
+                参考点在页面的左上角
+
+            上层盒子存在定位属性时
+                参考点一直向上找父级盒子的左上角，如果所有父级都没有，则使用页面左上角
+
+            对方向设值时，值为正向内部移动，负数向外移动
+
+        */
+    </style>
+</head>
+<body>
+
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+</body>
+</html>

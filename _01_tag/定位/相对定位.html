@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+
+        }
+        .div1{
+            background-color: #91dc47;
+        }
+        .div2{
+            background-color: #36b893;
+            position: relative;
+            left:10px;
+            top: 10px;
+        }
+        .div3{
+            background-color: #731dec;
+        }
+        /*
+            相对定位需要配合方向使用
+
+            依然占用原始位置
+
+            相对定位的点是顶对于原始位置的左上角进行移动
+
+            加了定位的盒子层级高于其他盒子
+        */
+    </style>
+</head>
+<body>
+
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+</body>
+</html>
